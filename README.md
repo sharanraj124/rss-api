@@ -12,8 +12,8 @@
 clone the repo
 
 ```bash
-git clone https://github.com/sharanraj124/wallet-system.git
-cd wallet-system
+https://github.com/sharanraj124/rss-api.git
+cd rss-api
 ```
 
 ### Install Node.js Dependencies
@@ -38,7 +38,7 @@ npm run start
   Access the api using heroku link.
 
 ```bash
-https://wallet-system-app.herokuapp.com/
+https://rss-feedapi.herokuapp.com/
 ```
 
 
@@ -47,7 +47,7 @@ https://wallet-system-app.herokuapp.com/
 1. Get transctions for your wallet:
 
 ```curl
-curl https://wallet-system-app.herokuapp.com/search/?key="keywod"
+curl https://rss-feedapi.herokuapp.com/search/?key="keyword"
 ```
 
 
@@ -56,5 +56,5 @@ curl https://wallet-system-app.herokuapp.com/search/?key="keywod"
 3. Get transctions for your wallet:
 
 ```curl
-curl http://localhost:5500/search/?key="keywod"
+curl http://localhost:5500/search/?key="keyword"
 ```
